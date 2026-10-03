@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz – Elternpost</title>
+<meta name="robots" content="noindex">
+<style>
+a{color:var(--accent)}
+:root{--bg:#fafaf8;--fg:#1c2421;--muted:#5b6762;--line:#dfe4e1;--accent:#0e7a6c;--card:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#121816;--fg:#e6ece9;--muted:#9aa7a1;--line:#2a3430;--accent:#4cc2b0;--card:#18201d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.9rem;margin:0 0 .25rem}
+h2{font-size:1.2rem;margin:2rem 0 .5rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--accent)}
+p,li{margin:.4rem 0}
+ul{padding-left:1.2rem}
+.meta{color:var(--muted);font-size:.95rem}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:1rem 0}
+</style>
+</head>
+<body>
+<main>
+<h1>Datenschutz – Elternpost</h1>
+<p class="meta">Stand: 3. Oktober 2026</p>
+
+<p>Elternpost zeigt die Elternbriefe aus dem IServ-Portal einer Schule übersichtlich auf dem iPhone an. Die App arbeitet nur auf deinem Gerät.</p>
+
+<div class="note"><strong>Wichtig:</strong> Elternpost ist eine private, nicht offizielle App. Sie stammt weder von der Schule noch von der IServ GmbH. Du meldest dich mit deinem eigenen IServ-Konto an, so wie im Browser.</div>
+
+<h2>Kontakt</h2>
+<p>Elternpost ist ein privates Projekt. Bei Fragen zum Datenschutz erreichst du mich unter:<br>
+E-Mail: <a href="mailto:elternbrief@mailbox.org">elternbrief@mailbox.org</a></p>
+<p>Die App überträgt keine personenbezogenen Daten an mich. Für die Briefe selbst und die Daten in deinem IServ-Konto ist weiterhin die Schule bzw. ihr IServ-Betreiber verantwortlich. Elternpost zeigt diese Daten nur an.</p>
+
+<h2>Keine Server, keine Weitergabe</h2>
+<ul>
+<li>Die App hat keinen eigenen Server. Ich als Entwickler erhalte keine Daten aus der App.</li>
+<li>Keine Werbung, keine Statistik, kein Tracking, keine fremden Software-Bausteine, die Daten senden.</li>
+<li>Die App verbindet sich nur mit dem IServ-Server deiner Schule. Bilder oder andere Inhalte von fremden Servern lädt sie nicht. Tippst du in einem Brief auf einen Link, öffnet ihn dein Browser.</li>
+<li>Meldungen über neue Briefe erzeugt die App selbst auf dem Gerät. Es gibt keinen Push-Dienst.</li>
+</ul>
+
+<h2>Was auf deinem Gerät gespeichert wird</h2>
+<ul>
+<li><strong>Zugangsdaten:</strong> nur, wenn du bei der Anmeldung „Merken“ einschaltest. Dann liegen Account und Passwort im iOS-Schlüsselbund, nur auf diesem Gerät (nicht im iCloud-Schlüsselbund und nicht auf andere Geräte übertragbar). Ohne „Merken“ speichert die App kein Passwort.</li>
+<li><strong>Anmeldung bei IServ:</strong> Wie ein Browser hält die App die Sitzung (Cookies), bis sie abläuft.</li>
+<li><strong>Briefliste für das Widget:</strong> die Anzahl der ungelesenen Briefe und bis zu fünf davon (Betreff, Absender, Datum). Auf dem Sperrbildschirm blendet iOS Betreff und Absender aus.</li>
+<li><strong>Für Meldungen:</strong> die Kennnummern der ungelesenen Briefe, damit jeder Brief nur einmal gemeldet wird, und deine Einstellung „Betreff in Meldungen zeigen“ (Standard: aus).</li>
+<li><strong>Brieftexte für die Suche:</strong> Damit die Suche auch im Text der Briefe findet, speichert die App den reinen Brieftext (ohne Anhänge) auf dem Gerät zwischen, geschützt durch die iOS-Dateiverschlüsselung und nicht in Backups. Ungelesene Briefe holt sie dafür nicht vorab, sondern erst, wenn du sie öffnest. Einträge zu Briefen, die nicht mehr in der Liste stehen, werden entfernt. Im Demo-Modus wird nichts gespeichert.</li>
+<li><strong>Anhänge:</strong> nur kurz, solange die Vorschau offen ist. Danach und bei jedem App-Start werden sie gelöscht.</li>
+</ul>
+
+<h2>Was an IServ gesendet wird</h2>
+<p>Außer der Anmeldung und dem Abrufen der Briefe sendet die App nur zwei Dinge an IServ, und nur, wenn du sie selbst auslöst:</p>
+<ul>
+<li>die <strong>Lesebestätigung</strong>, wenn du „Als gelesen bestätigen“ antippst und zustimmst;</li>
+<li><strong>Archivieren bzw. Wiederherstellen</strong> eines einzelnen Briefs. Das ändert nur, in welcher Liste der Brief in deinem IServ steht, wie der Knopf „Archivieren“ auf der IServ-Webseite. Eine Lesebestätigung wird dabei nicht gesendet.</li>
+</ul>
+
+<h2>TestFlight (Apple)</h2>
+<p>Wenn du Elternpost über TestFlight installierst, verarbeitet Apple dabei Daten nach den eigenen Bedingungen, zum Beispiel deine Apple-ID für die Einladung sowie auf Wunsch Absturzberichte und Rückmeldungen. Wenn du über TestFlight Feedback sendest, erhalte ich diese Nachricht und, falls du sie mitschickst, einen Screenshot. Bitte schicke dabei keine Brieftexte oder Namen von Kindern.</p>
+
+<h2>Alles löschen</h2>
+<ol>
+<li><strong>„Merken“ ausschalten:</strong> Menü ⋯ → „Neu anmelden“ und ohne „Merken“ anmelden. Damit werden die Zugangsdaten aus dem Schlüsselbund und die zwischengespeicherten Brieftexte gelöscht. Bitte vor dem Entfernen der App machen, weil iOS Schlüsselbund-Einträge beim Entfernen einer App nicht in jedem Fall löscht.</li>
+<li><strong>App entfernen:</strong> Das löscht alle übrigen Daten der App, auch die des Widgets.</li>
+</ol>
+
+<h2>Deine Rechte</h2>
+<p>Da ich keine Daten von dir sammle, gibt es bei mir nichts zu löschen oder auszuhändigen. Für Daten in IServ wende dich an die Schule. Bei Fragen zur App schreibe an die oben genannte E-Mail-Adresse.</p>
+
+<h2>Änderungen</h2>
+<p>Ändert sich, was die App speichert oder sendet, passe ich diese Seite an und nenne oben das Datum.</p>
+</main>
+</body>
+</html>
